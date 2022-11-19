@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6FA263;
+}
+.parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1300px;
+    height: 500px;
+    background: #2C3337;
+    border-radius: 10px;
+}
+
+.child {
+    width: 200px;
+    height: 200px;
+    background: #DD96BB;
+    border-radius: 50%;
+    cursor: pointer;   
+}

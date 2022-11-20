@@ -1,23 +1,33 @@
-.container {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.container {
     background-color: #6FA263;
 }
 .parent {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1300px;
-    height: 500px;
-    background: #2C3337;
-    border-radius: 10px;
+    width: 80vw;
+    height: 80vh;
+    background-color: #2C3337;
+    border-radius: 25px;
 }
 
 .child {
     width: 200px;
     height: 200px;
-    background: #DD96BB;
+    background-color: #DD96BB;
     border-radius: 50%;
-    cursor: pointer;   
+    cursor: pointer;
+    position: absolute;   
 }
